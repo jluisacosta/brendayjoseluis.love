@@ -15,10 +15,6 @@
     "prepare": "husky install",
     "knip": "knip"
   },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "next lint",
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "dependencies": {
     "next": "14.0.1",
     "react": "18.2.0",
@@ -43,6 +39,7 @@
     "knip": "^5.0.2",
     "lint-staged": "^15.0.2",
     "prettier": "3.0.3",
+    "sass": "^1.71.1",
     "typescript": "^5.2.2"
   }
 }
