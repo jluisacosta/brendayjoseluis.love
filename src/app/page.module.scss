@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 711px;
+  width: 1000px;
+  overflow: hidden;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  box-shadow: -10px 5px 10px lightgrey;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container {
+    align-self: flex-start;
+    flex: 0 1 600px;
+    height: auto;
+    width: 100%;
+    min-width: 375px;
+    border: none;
+    border-radius: 0;
+    box-shadow: -10px 5px 10px lightgrey, 10px 5px 10px lightgrey;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    height: 498px;
+    width: 700px;
+  }
+}

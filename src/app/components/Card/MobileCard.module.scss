@@ -1,0 +1,28 @@
+@import '../../styles/palette.scss';
+
+.container {
+  background-color: $white;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 32px 0;
+
+  h3 {
+    margin: 1rem 0 .5rem;
+  }
+}
+
+.photoPanel {
+  width: 100%;
+  max-width: 375px;
+  height: 375px;
+  background-color: gainsboro;
+  margin-bottom: 2rem;
+}
+
+.photoSlider {
+  background-color: gainsboro;
+}

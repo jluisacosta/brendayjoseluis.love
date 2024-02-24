@@ -1,0 +1,26 @@
+.heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+
+  span {
+    font-size: 70%;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
