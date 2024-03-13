@@ -16,13 +16,9 @@
 }
 
 .photoPanel {
-  width: 100%;
-  max-width: 375px;
+  width: 375px;
   height: 375px;
-  background-color: gainsboro;
   margin-bottom: 2rem;
-}
-
-.photoSlider {
-  background-color: gainsboro;
+  border-radius: 50%;
+  overflow: hidden;
 }

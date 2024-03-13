@@ -1,5 +1,7 @@
 import { encodeC } from '../../fonts';
 import Calendar from '../Calendar';
+import Carousel from '../Carousel';
+import { CAROUSEL_ALL } from '../Carousel/images';
 import Heading from '../Heading';
 import styles from './MobileCard.module.scss';
 
@@ -8,7 +10,7 @@ const MobileCard = () => {
     <div className={styles.container}>
       <Heading />
       <div className={styles.photoPanel}>
-        <div className={styles.photoSlider}>Photo Slider 1</div>
+        <Carousel images={CAROUSEL_ALL} />
       </div>
       <Calendar />
       <h3 className={encodeC.className}>BRENDA &amp; JOSÉ LUIS</h3>

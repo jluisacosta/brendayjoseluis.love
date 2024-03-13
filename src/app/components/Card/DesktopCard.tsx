@@ -1,5 +1,7 @@
 import { encodeC } from '../../fonts';
 import Calendar from '../Calendar';
+import Carousel from '../Carousel';
+import { CAROUSEL_1, CAROUSEL_2, CAROUSEL_3 } from '../Carousel/images';
 import Heading from '../Heading';
 import styles from './DesktopCard.module.scss';
 
@@ -7,9 +9,15 @@ const DesktopCard = () => {
   return (
     <>
       <div className={styles.photoPanel}>
-        <div className={styles.photoSlider}>Photo Slider 1</div>
-        <div className={styles.photoSlider}>Photo Slider 2</div>
-        <div className={styles.photoSlider}>Photo Slider 3</div>
+        <div className={styles.carouselContainer}>
+          <Carousel images={CAROUSEL_1} />
+        </div>
+        <div className={styles.carouselContainer}>
+          <Carousel images={CAROUSEL_2} />
+        </div>
+        <div className={styles.carouselContainer}>
+          <Carousel images={CAROUSEL_3} />
+        </div>
       </div>
       <div className={styles.descriptionPanel}>
         <Heading />
