@@ -2,13 +2,13 @@
 
 .container {
   background-color: $white;
-  border: 1px solid gainsboro;
+  border: 1px solid $bliss-green;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
   text-align: center;
-  padding: 32px 0;
+  padding: 32px 0 48px;
 
   h3 {
     margin: 1rem 0 .5rem;
@@ -21,4 +21,5 @@
   margin-bottom: 2rem;
   border-radius: 50%;
   overflow: hidden;
+  flex-shrink: 0;
 }

@@ -9,6 +9,7 @@ $sliders-gap: 11px;
   flex-wrap: wrap;
   gap: $sliders-gap;
   width: calc($photo-panel-width - 1px);
+  background-color: $white;
 }
 
 .carouselContainer {
