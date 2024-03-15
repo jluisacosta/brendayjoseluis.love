@@ -1,4 +1,4 @@
-import { encodeC } from '../../fonts';
+import { encodeC, greatVibes } from '../../fonts';
 import Calendar from '../Calendar';
 import Carousel from '../Carousel';
 import { CAROUSEL_1, CAROUSEL_2, CAROUSEL_3 } from '../Carousel/images';
@@ -22,7 +22,7 @@ const DesktopCard = () => {
       <div className={styles.descriptionPanel}>
         <Heading />
         <Calendar />
-        <h3 className={encodeC.className}>BRENDA &amp; JOSÉ LUIS</h3>
+        <h3 className={greatVibes.className}>Brenda &amp;José Luis</h3>
         <h4 className={encodeC.className}>San Luis Potosí, México</h4>
       </div>
     </>

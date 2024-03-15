@@ -1,7 +1,8 @@
 .container {
   width: 375px;
-  padding: 20px 0;
+  padding: 20px 0 14px;
   border: 3px solid black;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,23 +13,24 @@
 }
 
 .table {
-  width: 280px;
+  width: 294px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cell {
-  height: 40px;
-  width: 40px;
+  height: 42px;
+  width: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.3rem;
 }
 
 .heart {
   fill: black;
   position: relative;
-  width: 40px;
+  width: 42px;
   animation: pulse 1.5s ease infinite;
 }
 
@@ -41,26 +43,54 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 769px) and (max-width: 1024px) {
   .container {
-    width: 300px;
-    padding: 16px 0;
+    width: 270px;
+    padding: 16px 0 10px;
     border-width: 2px;
   }
   
   .heading {
-    font-size: 1.25em;
+    font-size: 1.15rem;
     margin-bottom: 2px;
   }
   
   .table {
-    width: 245px;
+    width: 210px;
   }
   
   .cell {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
   }
   
   .heart {
-    width: 35px;
+    width: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    width: 320px;
+    padding: 0;
+    border: none;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .table {
+    width: 280px;
+  }
+
+  .cell {
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+  }
+
+  .heart {
+    width: 40px;
   }
 }

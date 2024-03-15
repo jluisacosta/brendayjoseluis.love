@@ -7,12 +7,12 @@ import {
 
 export const encodeC = EncodeCon({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['300'],
 });
 
 export const encodeX = EncodeExp({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['500'],
 });
 
 export const greatVibes = GreatVibes({

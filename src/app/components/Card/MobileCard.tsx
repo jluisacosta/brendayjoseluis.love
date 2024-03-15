@@ -1,4 +1,4 @@
-import { encodeC } from '../../fonts';
+import { encodeC, greatVibes } from '../../fonts';
 import Calendar from '../Calendar';
 import Carousel from '../Carousel';
 import { CAROUSEL_ALL } from '../Carousel/images';
@@ -13,7 +13,7 @@ const MobileCard = () => {
         <Carousel images={CAROUSEL_ALL} />
       </div>
       <Calendar />
-      <h3 className={encodeC.className}>BRENDA &amp; JOSÉ LUIS</h3>
+      <h3 className={greatVibes.className}>Brenda &amp;José Luis</h3>
       <h4 className={encodeC.className}>San Luis Potosí, México</h4>
     </div>
   );

@@ -1,16 +1,16 @@
 .heading {
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  font-size: 5rem;
+  margin-bottom: 1rem;
 
   span {
-    font-size: 70%;
+    font-size: 65%;
   }
 }
 
 /* Tablet and Smaller Desktop */
 @media (max-width: 1024px) {
   .heading {
-    font-size: 3rem;
+    font-size: 3.25rem;
     margin-bottom: 1rem;
   }
 }
@@ -18,9 +18,6 @@
 /* Mobile */
 @media (max-width: 768px) {
   .heading {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 3.5rem;
   }
 }
-
-
