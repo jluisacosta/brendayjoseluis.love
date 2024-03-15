@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { DesktopCard, MobileCard } from './components/Card';
+import Loader from './components/Loader';
 import styles from './page.module.scss';
 
 const Home = () => {
@@ -17,7 +18,12 @@ const Home = () => {
     };
   }, []);
 
-  if (isMobile === null) return <h2>Loading...</h2>;
+  if (isMobile === null)
+    return (
+      <div className={styles.mask}>
+        <Loader />
+      </div>
+    );
 
   return (
     <main className={styles.main}>

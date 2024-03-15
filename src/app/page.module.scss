@@ -17,6 +17,15 @@
   box-shadow: -10px 5px 10px lightgrey;
 }
 
+.mask {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: .60;
+  display: flex;
+  justify-content: center;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .main {
