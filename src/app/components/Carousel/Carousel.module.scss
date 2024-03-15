@@ -1,5 +1,5 @@
-$slides: 3;
-$delay: 18s; // Time to cycle everything
+$slides: 2;
+$delay: 12s; // Time to cycle everything
 
 .carousel {
   margin: auto;
@@ -32,9 +32,9 @@ $delay: 18s; // Time to cycle everything
 }
 
 /* Mobile */
-@media (max-width: 768px) {
-  $slides: 9;
-  $delay: 27s; // Time to cycle everything
+@media (max-width: 1024px) {
+  $slides: 6;
+  $delay: 18s; // Time to cycle everything
 
   .carousel {
     > * {

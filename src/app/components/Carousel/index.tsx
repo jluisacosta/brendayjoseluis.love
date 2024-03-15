@@ -6,9 +6,8 @@ const Carousel = ({ images }: { images: string[] }) => {
     <div className={styles.carousel}>
       {images.map((img) => {
         const style: CSSProperties = {
-          backgroundImage: `url('${img}')`,
+          backgroundImage: `url('/${img}')`,
           backgroundPosition: 'center',
-          filter: 'grayscale(100%)',
         };
 
         return <div key={img} style={style} />;
