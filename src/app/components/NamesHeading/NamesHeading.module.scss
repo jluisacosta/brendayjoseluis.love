@@ -1,0 +1,46 @@
+.namesHeading {
+  font-size: 3rem;
+  margin: 2rem 0 1rem;
+  display: inline-block;
+
+  span {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(80, end) forwards;
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.location {
+  font-size: 1.5rem;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .namesHeading {
+    font-size: 2.25rem;
+    margin: 1.5rem 0 .75rem;
+  }
+
+  .location {
+    font-size: 1.15rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .namesHeading {
+    font-size: 2.5rem;
+    margin: 1.25rem 0 .5rem;
+  }
+
+  .location {
+    font-size: 1rem;
+  }
+}

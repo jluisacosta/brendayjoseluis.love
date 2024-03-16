@@ -1,8 +1,8 @@
-import { encodeC, greatVibes } from '../../fonts';
 import Calendar from '../Calendar';
 import Carousel from '../Carousel';
 import { CAROUSEL_ALL } from '../Carousel/images';
 import Heading from '../Heading';
+import NamesHeading from '../NamesHeading';
 import styles from './MobileCard.module.scss';
 
 const MobileCard = () => {
@@ -13,8 +13,7 @@ const MobileCard = () => {
         <Carousel images={CAROUSEL_ALL} />
       </div>
       <Calendar />
-      <h3 className={greatVibes.className}>Brenda &amp;José Luis</h3>
-      <h4 className={encodeC.className}>San Luis Potosí, México</h4>
+      <NamesHeading />
     </div>
   );
 };

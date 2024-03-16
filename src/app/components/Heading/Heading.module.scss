@@ -1,10 +1,16 @@
 .heading {
   font-size: 5rem;
   margin-bottom: 1rem;
+  animation: fadeIn 8s;
 
   span {
     font-size: 65%;
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* Tablet and Smaller Desktop */
