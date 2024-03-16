@@ -1,7 +1,10 @@
+@import '../../styles/palette.scss';
+
 .heading {
   font-size: 5rem;
   margin-bottom: 1rem;
   animation: fadeIn 8s;
+  color: darken($sober-dark-green, 10%);
 
   span {
     font-size: 65%;

@@ -1,7 +1,10 @@
+@import '../../styles/palette.scss';
+
 .namesHeading {
   font-size: 3rem;
   margin: 2rem 0 1rem;
   display: inline-block;
+  color: $sober-dark-green;
 
   span {
     display: block;
@@ -19,6 +22,7 @@
 
 .location {
   font-size: 1.5rem;
+  color: darken($light-peach, 30%);
 }
 
 /* Tablet and Smaller Desktop */
