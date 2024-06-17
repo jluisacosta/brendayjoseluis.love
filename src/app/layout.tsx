@@ -2,26 +2,30 @@ import React from 'react';
 import type { Metadata } from 'next';
 import './styles/globals.scss';
 
+const DESCRIPTION = 'Estás cordialmente invitado a nuestra boda.';
+const HOSTNAME = 'https://brendayjoseluis.love';
+const TITLE = 'Brenda & José Luis - Nuestra Boda';
+
 export const metadata: Metadata = {
-  description: 'Estás cordialmente invitado a nuestra boda.',
+  description: DESCRIPTION,
   openGraph: {
-    description: 'Estás cordialmente invitado a nuestra boda.',
+    description: DESCRIPTION,
     images: [
       {
         width: 1600,
         height: 1067,
-        url: '/envelope.jpeg',
+        url: `${HOSTNAME}/envelope.jpg`,
         type: 'image/jpeg',
       },
     ],
     locale: 'es_ES',
-    siteName: 'Brenda & José Luis',
-    title: 'Brenda & José Luis - Nuestra Boda',
+    siteName: TITLE,
+    title: TITLE,
     type: 'website',
-    url: 'https://brendayjoseluis.love',
+    url: HOSTNAME,
   },
   robots: 'noindex, nofollow',
-  title: 'Brenda & José Luis',
+  title: TITLE,
   twitter: {
     card: 'summary_large_image',
   },
