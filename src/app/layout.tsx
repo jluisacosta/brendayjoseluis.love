@@ -10,7 +10,7 @@ export const metadata: Metadata = {
       {
         width: 1600,
         height: 1067,
-        url: 'https://nuestraboda.love/Brenda-y-JoseLuis/wp-content/uploads/sites/2599/2024/05/Final.jpg',
+        url: '/envelope.jpeg',
         type: 'image/jpeg',
       },
     ],
