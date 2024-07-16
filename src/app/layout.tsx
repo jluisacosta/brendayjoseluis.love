@@ -2,9 +2,9 @@ import React from 'react';
 import type { Metadata } from 'next';
 import './styles/globals.scss';
 
-const DESCRIPTION = 'Estás cordialmente invitado a nuestra boda.';
+const DESCRIPTION = 'Te invitamos a ser parte de nuestra historia.';
 const HOSTNAME = 'https://brendayjoseluis.love';
-const TITLE = 'Brenda & José Luis - Nuestra Boda';
+const TITLE = 'Brenda & José Luis - 14.09.2024';
 
 export const metadata: Metadata = {
   description: DESCRIPTION,
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       {
         width: 1600,
         height: 1067,
-        url: `${HOSTNAME}/envelope.jpg`,
+        url: `${HOSTNAME}/preview.jpg`,
         type: 'image/jpeg',
       },
     ],
