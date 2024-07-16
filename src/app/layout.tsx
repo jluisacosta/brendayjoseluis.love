@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       {
         width: 1600,
         height: 1067,
-        url: `${HOSTNAME}/envelope.jpg`,
+        url: `${HOSTNAME}/preview.jpg`,
         type: 'image/jpeg',
       },
     ],
